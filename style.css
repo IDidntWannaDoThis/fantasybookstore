@@ -1,0 +1,124 @@
+:root
+{
+    background-color: #FFF7F3;
+}
+nav > div
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+nav section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+nav section:last-of-type p
+{
+    margin: 3mm;
+}
+nav section:last-of-type a
+{
+    padding: 5mm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    color: #fe7d4e;
+    background-color: #fef2f2;
+    text-decoration: none;
+}
+nav > div > section:first-of-type > h4:first-of-type
+{
+    color: #fe7d4e;
+}
+nav > div > section:first-of-type > h4
+{
+    font-size: x-large;
+}
+header
+{
+    background-image: url(img/hero\ image.jpg);
+    color: white;
+    background-size: cover;
+}
+header p
+{
+    text-align: center;
+}
+header div
+{
+    padding: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: x-large;
+}
+main section:first-of-type
+{
+    padding: 5%;
+}
+main section:first-of-type div a
+{
+    box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3) ;
+    width: content;
+    height: max-content;
+}
+main section:first-of-type div a img
+{
+    width: 6cm;
+}
+
+main section:first-of-type div 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4mm;
+}
+main section:first-of-type nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+main section:last-of-type
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 30mm;
+}
+main section:last-of-type > div:first-of-type
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20mm;
+    background-color: #FEFDF9;
+}
+main section:last-of-type > div:last-of-type
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10mm;
+    background-color: #fef2f2;
+}
+main section:last-of-type > div:last-of-type div:first-of-type
+{
+    box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3);
+    width: min-content;
+    height: min-content;
+}
+main section:last-of-type > div:last-of-type div img
+{
+    width: 250px;
+}
+
+
+
