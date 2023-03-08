@@ -26,6 +26,7 @@ nav section:last-of-type a
     color: #fe7d4e;
     background-color: #fef2f2;
     text-decoration: none;
+    border-radius: 50px;
 }
 nav > div > section:first-of-type > h4:first-of-type
 {
@@ -106,10 +107,11 @@ main section:last-of-type > div:last-of-type
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10mm;
     background-color: #fef2f2;
+    padding: 10mm;
+    color: gray;
 }
-main section:last-of-type > div:last-of-type div:first-of-type
+main section:last-of-type > div:last-of-type>div:first-of-type
 {
     box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3);
     width: min-content;
@@ -119,6 +121,131 @@ main section:last-of-type > div:last-of-type div img
 {
     width: 250px;
 }
+main section:last-of-type > div:last-of-type div a
+{
+    width: 250px;
+    padding: 5mm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    color: white;
+    display: block;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: #fe7d4e;
+    text-decoration: none;
+    box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3);
+}
+main section:last-of-type > div:last-of-type >div>div>div
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 30px 30px;
+    margin: 10mm;
+}
+main section:last-of-type > div:last-of-type >div>div
+{
+    padding: 20mm;
+}
+main >div > section:last-of-type > div:last-of-type
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+main >div > section:last-of-type > div:last-of-type
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+body>section
+{
+    background-image: url(img/Cover-Bogklub.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15.65cm;
+    background-size: contain;
+    
+}
+body>section>a
+{
+    width: 250px;
+    padding: 5mm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    color: white;
+    display: block;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: #fe7d4e;
+    text-decoration: none;
+    box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3);
+}
+svg
+{
+    fill: #fe7d4e;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25mm;
+    background-color: #FEFDF9;
+}
+footer > section:first-of-type > div:first-of-type>div> h4:first-of-type
+{
+    color: #fe7d4e;
+    
+    
+}
+footer > section:first-of-type > div:first-of-type>div> h4:last-of-type
+{
+    display: inline;
+    
+}
+footer> section:first-of-type >div>div> h4
+{
+    font-size: x-large;
+    line-height: 0px;
+    margin-bottom: 10px;
+    
+}
+footer> section:first-of-type >div>div
+{
+    padding-bottom: 0;
+    
+}
+footer > section:first-of-type > div:first-of-type>div
+{
+    display: flex;
+    height: fit-content;
+    
+}
+footer h5
+{
+    font-size: large;
+    margin-bottom: 0;
+    
+    
+}
+footer P
+{
+    margin: 5px;
+}
+footer>section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
 
 
 
